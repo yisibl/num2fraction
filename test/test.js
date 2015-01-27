@@ -1,0 +1,15 @@
+var test = require('tape')
+var num2fraction = require('../')
+
+test('Must be equal', function(t) {
+  t.equal(num2fraction(0), 0)
+  t.equal(num2fraction(.2), '1/5')
+  t.equal(num2fraction(1.3), '13/10')
+  t.equal(num2fraction(1.4), '7/5')
+  t.equal(num2fraction(1.5), '3/2')
+  t.equal(num2fraction(2), '2/1')
+  t.equal(num2fraction(3), '3/1')
+  t.equal(num2fraction('3em'), '3/1')
+  t.equal(num2fraction('1.5px'), '3/2')
+  t.end()
+})
