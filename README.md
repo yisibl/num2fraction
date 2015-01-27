@@ -5,7 +5,7 @@
 [![NPM Version](http://img.shields.io/npm/v/num2fraction.svg?style=flat)](https://www.npmjs.com/package/num2fraction) 
 [![License](https://img.shields.io/npm/l/num2fraction.svg?style=flat)](http://opensource.org/licenses/MIT) 
 
-> Number to fraction
+> Converting Number to Fraction with Node.js.
 
 [![Testling badge](https://ci.testling.com/yisibl/num2fraction.png)](https://ci.testling.com/yisibl/num2fraction)
 
@@ -29,6 +29,22 @@ console.log(n2f(2))            // => 2/1
 console.log(n2f(3))            // => 3/1
 console.log(n2f('3em'))        // => 3/1
 console.log(n2f('1.5px'))      // => 3/2
+```
+
+## Example
+
+Opera [old versions](http://www.opera.com/docs/specs/presto28/css/o-vendor/) support the non-standard `-o-min-device-pixel-ratio` or `-o-max-device-pixel-ratio` in CSS media queries.
+
+```css
+@media
+  only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (   min--moz-device-pixel-ratio: 2),
+  only screen and (     -o-min-device-pixel-ratio: 2/1), /* Opera */
+  only screen and (        min-device-pixel-ratio: 2),
+  only screen and (                min-resolution: 192dpi), /* fallback */
+  only screen and (                min-resolution: 2dppx) { 
+
+}
 ```
 
 ## Changelog

@@ -1,7 +1,7 @@
 {
   "name": "num2fraction",
   "version": "1.0.0",
-  "description": "Number to fraction",
+  "description": "Convert number to fraction",
   "main": "index.js",
   "author": {
     "name": "yisi",
