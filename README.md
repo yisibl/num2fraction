@@ -7,6 +7,8 @@
 
 > Number to fraction
 
+[![Testling badge](https://ci.testling.com/yisibl/num2fraction.png)](https://ci.testling.com/yisibl/num2fraction)
+
 ## Installation
 
 ```console
