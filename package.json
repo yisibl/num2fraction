@@ -27,7 +27,7 @@
   },
   "scripts": {
     "test": "tape test/*.js"
-  }
+  },
   "testling": {
     "files": "test/*.js",
     "browsers": [
