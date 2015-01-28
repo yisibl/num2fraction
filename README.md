@@ -7,8 +7,6 @@
 
 > Converting Number to Fraction with Node.js.
 
-[![Testling badge](https://ci.testling.com/yisibl/num2fraction.png)](https://ci.testling.com/yisibl/num2fraction)
-
 ## Installation
 
 ```console
@@ -48,6 +46,10 @@ Opera [old versions](http://www.opera.com/docs/specs/presto28/css/o-vendor/) sup
 ```
 
 ## Changelog
+
+### v1.0.1
+
+* \- Remove "ci.testling.com"
 
 ### V1.0.0
 
