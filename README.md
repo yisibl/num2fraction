@@ -49,7 +49,7 @@ Opera [old versions](http://www.opera.com/docs/specs/presto28/css/o-vendor/) sup
 
 ### v1.1.0
 
-* \- Use more precise (not fixed) precision factor for the calculation
+* \+ Use more precise (not fixed) precision factor for the calculation
 
 ### v1.0.1
 
