@@ -32,11 +32,11 @@ var n2f = require('num2fraction')
   console.log(n2f(8.36))            // => 209/25
   console.log(n2f('3em'))           // => 3/1
   console.log(n2f('1.5px'))         // => 3/2
-  console.log(num2fraction(7 / 9)             // => '7/9'
-  console.log(num2fraction(8 / 9)             // => '8/9'
-  console.log(num2fraction(512 / 999)         // => '512/999'
-  console.log(num2fraction((2 * π / 3) / π)   // => '2/3'
-  console.log(num2fraction((8 * 5) / (4 / 2)) // => '20/1'
+  console.log(num2fraction(7 / 9)             // => 7/9
+  console.log(num2fraction(8 / 9)             // => 8/9
+  console.log(num2fraction(512 / 999)         // => 512/999
+  console.log(num2fraction((2 * π / 3) / π)   // => 2/3
+  console.log(num2fraction((8 * 5) / (4 / 2)) // => 20/1
 ```
 
 ## Example
