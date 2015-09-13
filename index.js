@@ -32,7 +32,7 @@ function num2fraction(num) {
 
   var precision = findPrecision(num) //精确度
   var number = num * precision
-  var gcd = GCD(number, precision)
+  var gcd = abs(GCD(number, precision))
 
   //分子
   var numerator = number / gcd

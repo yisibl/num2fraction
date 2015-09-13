@@ -6,6 +6,7 @@ test('Must be equal', function(t) {
   t.equal(num2fraction(0), 0)
   t.equal(num2fraction(.2), '1/5')
   t.equal(num2fraction(1.1), '11/10')
+  t.equal(num2fraction(-1.1), '-11/10')
   t.equal(num2fraction(1.2), '6/5')
   t.equal(num2fraction(1.3), '13/10')
   t.equal(num2fraction(1.4), '7/5')
