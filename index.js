@@ -23,7 +23,7 @@ function findPrecision(n) {
 }
 
 function num2fraction(num) {
-  if (num === 0) return 0
+  if (num === 0 || num === '0') return '0'
 
   if (typeof num === 'string') {
     num = parseFloat(num)
@@ -42,6 +42,8 @@ function num2fraction(num) {
   //分数
   return round(numerator) + '/' + round(denominator)
 }
+
+console.log(num2fraction('0'))
 
 module.exports = num2fraction
 
