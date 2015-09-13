@@ -1,9 +1,10 @@
-'use strict';
-var abs = Math.abs;
-var round = Math.round;
+'use strict'
+
+var abs = Math.abs
+var round = Math.round
 
 function almostEq(a, b) {
-  return abs(a - b) <= 9.5367432e-7;
+  return abs(a - b) <= 9.5367432e-7
 }
 
 //最大公约数 Greatest Common Divisor
