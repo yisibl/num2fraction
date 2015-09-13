@@ -57,6 +57,11 @@ Opera [old versions](http://www.opera.com/docs/specs/presto28/css/o-vendor/) sup
 
 ## Changelog
 
+### v1.2.0
+
+* \+ Fix: Accomodate rounding errors. (by @jamestalmage)
+* \+ Fix: The negative sign should be on numerator. (by @jamestalmage)
+
 ### v1.1.0
 
 * \+ Use more precise (not fixed) precision factor for the calculation
