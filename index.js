@@ -44,7 +44,5 @@ function num2fraction(num) {
   return round(numerator) + '/' + round(denominator)
 }
 
-console.log(num2fraction('0'))
-
 module.exports = num2fraction
 
