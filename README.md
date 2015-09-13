@@ -57,6 +57,10 @@ Opera [old versions](http://www.opera.com/docs/specs/presto28/css/o-vendor/) sup
 
 ## Changelog
 
+### v1.2.1
+
+* \+ Fix: 0 must be converted to a string.
+
 ### v1.2.0
 
 * \+ Fix: Accomodate rounding errors. (by @jamestalmage)

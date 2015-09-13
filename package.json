@@ -1,6 +1,6 @@
 {
   "name": "num2fraction",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Convert number to fraction",
   "main": "index.js",
   "author": {
