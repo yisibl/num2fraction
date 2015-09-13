@@ -3,7 +3,7 @@ var num2fraction = require('../')
 var π = Math.PI
 
 test('Must be equal', function(t) {
-  t.equal(num2fraction(0), 0)
+  t.equal(num2fraction(0), '0')
   t.equal(num2fraction(.2), '1/5')
   t.equal(num2fraction(1.1), '11/10')
   t.equal(num2fraction(-1.1), '-11/10')
@@ -16,8 +16,14 @@ test('Must be equal', function(t) {
   t.equal(num2fraction(3), '3/1')
   t.equal(num2fraction(2.555), '511/200')
   t.equal(num2fraction(8.36), '209/25')
+  t.equal(num2fraction(-8.36), '-209/25')
   t.equal(num2fraction('3em'), '3/1')
   t.equal(num2fraction('1.5px'), '3/2')
+  t.equal(num2fraction('0'), '0')
+  t.equal(num2fraction('.2'), '1/5')
+  t.equal(num2fraction('1.1'), '11/10')
+  t.equal(num2fraction('-1.1'), '-11/10')
+  t.equal(num2fraction('8.36'), '209/25')
   t.equal(num2fraction(1 / 3), '1/3')
   t.equal(num2fraction(2 / 3), '2/3')
   t.equal(num2fraction(1 / 9), '1/9')
