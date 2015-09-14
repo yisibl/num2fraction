@@ -57,6 +57,10 @@ Opera [old versions](http://www.opera.com/docs/specs/presto28/css/o-vendor/) sup
 
 ## Changelog
 
+### v1.2.2
+
+* \+ Remove: Debug log message.
+
 ### v1.2.1
 
 * \+ Fix: 0 must be converted to a string.
