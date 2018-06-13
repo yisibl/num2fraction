@@ -24,7 +24,7 @@ function findPrecision(n) {
 }
 
 function num2fraction(num) {
-  if (num === 0 || num === '0') return '0'
+  if (num === Infinity || num === 0 || num === '0') return '0'
 
   if (typeof num === 'string') {
     num = parseFloat(num)
