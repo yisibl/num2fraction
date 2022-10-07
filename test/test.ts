@@ -1,10 +1,11 @@
-var test = require('tape')
-var num2fraction = require('../')
-var π = Math.PI
+import test from 'tape'
+import num2fraction from '../source'
 
-test('Must be equal', function(t) {
+const π = Math.PI
+
+test('Must be equal', function (t) {
   t.equal(num2fraction(0), '0')
-  t.equal(num2fraction(.2), '1/5')
+  t.equal(num2fraction(0.2), '1/5')
   t.equal(num2fraction(1.1), '11/10')
   t.equal(num2fraction(-1.1), '-11/10')
   t.equal(num2fraction(1.2), '6/5')
@@ -32,7 +33,7 @@ test('Must be equal', function(t) {
   t.equal(num2fraction(5 / 9), '5/9')
   t.equal(num2fraction(7 / 9), '7/9')
   t.equal(num2fraction(8 / 9), '8/9')
-  t.equal(num2fraction((2 * π / 3) / π), '2/3')
+  t.equal(num2fraction((2 * π) / 3 / π), '2/3')
   t.equal(num2fraction((8 * 5) / (4 / 2)), '20/1')
   t.equal(num2fraction(512 / 999), '512/999')
   t.equal(num2fraction(5122 / 9999), '5122/9999')

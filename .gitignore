@@ -4,6 +4,9 @@ node_modules
 *.swo
 .idea/
 *.iml
-test/fixtures/*.actual.css
+.nyc_output
 npm-debug.log
 *.sublime-workspace
+coverage/
+dist/
+package-lock.json
