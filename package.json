@@ -53,7 +53,8 @@
     "test": "tsc --noEmit && npm run lint && nyc --require ts-node/register tape test/*.ts",
     "test-ci": "npm run test && nyc report --reporter=text-lcov",
     "cover": "nyc --require ts-node/register --reporter=lcov --reporter=text --reporter=html tape test/*.ts",
-    "lint": "xo"
+    "lint": "xo",
+    "publish": "np"
   },
   "nyc": {
     "reporter": [
