@@ -1,5 +1,5 @@
 {
-  "name": "dudley/num2fraction",
+  "name": "@dudley/num2fraction",
   "version": "1.2.2",
   "description": "Convert number to fraction",
   "engines": {
