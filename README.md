@@ -1,23 +1,24 @@
 # num2fraction
 
 [![XO code style](https://shields.io/badge/code_style-5ed9c7?logo=xo&labelColor=gray)](https://github.com/xojs/xo)
-[![Build Test Status](https://github.com/dudleycarr/num2fraction/actions/workflows/ci.yml/badge.svg)](https://github.com/dudleycarr/num2fraction/actions/workflows/ci.yml)
-[![NPM Downloads](https://img.shields.io/npm/dm/@dudley/num2fraction.svg?style=flat)](https://www.npmjs.com/package/@dudley/num2fraction) 
-[![NPM Version](http://img.shields.io/npm/v/@dudley/num2fraction.svg?style=flat)](https://www.npmjs.com/package/@dudley/num2fraction) 
-[![License](https://img.shields.io/npm/l/num2fraction.svg?style=flat)](http://opensource.org/licenses/MIT) 
+[![Build Test Status](https://github.com/yisibl/num2fraction/actions/workflows/ci.yml/badge.svg)](https://github.com/yisibl/num2fraction/actions/workflows/ci.yml)
+[![NPM Downloads](https://img.shields.io/npm/dm/num2fraction.svg?style=flat)](https://www.npmjs.com/package/num2fraction)
+[![NPM Version](http://img.shields.io/npm/v/num2fraction.svg?style=flat)](https://www.npmjs.com/package/num2fraction)
+[![License](https://img.shields.io/npm/l/num2fraction.svg?style=flat)](http://opensource.org/licenses/MIT)
 
 > Converting Number to Fraction with Node.js.
 
 ## Installation
 
 ```console
-npm install @dudley/num2fraction
+npm install num2fraction
 ```
 
 ## Usage
 
 ```js
-import n2f from '@dudley/num2fraction'
+import n2f from 'num2fraction'
+
 const π   = Math.PI
 
 console.log(n2f(0))                 // => 0
