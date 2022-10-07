@@ -2,7 +2,7 @@
 
 [![XO code style](https://shields.io/badge/code_style-5ed9c7?logo=xo&labelColor=gray)](https://github.com/xojs/xo)
 [![Build Test Status](https://github.com/dudleycarr/num2fraction/actions/workflows/ci.yml/badge.svg)](https://github.com/dudleycarr/num2fraction/actions/workflows/ci.yml)
-[![NPM Downloads](https://img.shields.io/npm/dm/num2fraction.svg?style=flat)](https://www.npmjs.com/package/num2fraction) 
+[![NPM Downloads](https://img.shields.io/npm/dm/@dudley/num2fraction.svg?style=flat)](https://www.npmjs.com/package/@dudley/num2fraction) 
 [![NPM Version](http://img.shields.io/npm/v/@dudley/num2fraction.svg?style=flat)](https://www.npmjs.com/package/@dudley/num2fraction) 
 [![License](https://img.shields.io/npm/l/num2fraction.svg?style=flat)](http://opensource.org/licenses/MIT) 
 
