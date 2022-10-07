@@ -2,11 +2,24 @@
   "name": "num2fraction",
   "version": "1.2.2",
   "description": "Convert number to fraction",
+  "engines": {
+    "node": ">=10"
+  },
   "main": "index.js",
+  "files": [
+    "index.js",
+    "dist/index.js",
+    "dist/index.js.map",
+    "dist/index.mjs.map",
+    "dist/index.mjs.map",
+    "dist/index.d.ts",
+    "LICENSE",
+    "README.md"
+  ],
   "author": {
     "name": "yisi",
     "email": "yiorsi@gmail.com",
-    "url": "http://iyunlu.com/view"
+    "url": "https://github.com/yisibl"
   },
   "license": "MIT",
   "repository": {
@@ -23,9 +36,59 @@
     "rational"
   ],
   "devDependencies": {
-    "tape": "^3.0.0"
+    "@sindresorhus/tsconfig": "^3.0.1",
+    "@types/tape": "^4.13.2",
+    "del-cli": "^5.0.0",
+    "np": "^7.6.2",
+    "nyc": "^15.1.0",
+    "prettier": "^2.7.1",
+    "tape": "^5.6.1",
+    "ts-node": "^10.9.1",
+    "tsup": "^6.2.3",
+    "typescript": "^4.8.4",
+    "xo": "^0.52.4"
   },
   "scripts": {
-    "test": "tape test/*.js"
+    "build": "del-cli dist && tsup ./source/index.ts --dts --sourcemap --format esm,cjs",
+    "test": "tsc --noEmit && npm run lint && nyc --require ts-node/register tape test/*.ts",
+    "test-ci": "npm run test && nyc report --reporter=text-lcov",
+    "cover": "nyc --require ts-node/register --reporter=lcov --reporter=text --reporter=html tape test/*.ts",
+    "lint": "xo"
+  },
+  "nyc": {
+    "reporter": [
+      "text",
+      "html",
+      "lcov"
+    ],
+    "extension": [
+      ".ts"
+    ],
+    "exclude": [
+      "**/test/**"
+    ]
+  },
+  "prettier": {
+    "semi": false,
+    "useTabs": false,
+    "tabWidth": 2,
+    "trailingComma": "all",
+    "singleQuote": true,
+    "bracketSpacing": false
+  },
+  "xo": {
+    "space": true,
+    "envs": [
+      "node"
+    ],
+    "ignores": [
+      "index.js"
+    ],
+    "prettier": true,
+    "rules": {
+      "import/extensions": "off",
+      "unicorn/numeric-separators-style": "off",
+      "unicorn/prevent-abbreviations": "off"
+    }
   }
 }

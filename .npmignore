@@ -1,8 +1,11 @@
+.editorconfig
+.github
 .gitignore
-.travis.yml
+.nyc_output
 
+coverage/
 node_modules/
+source/
 test/
 
-gulpfile.js
-Gruntfile.js
+tsconfig.json
