@@ -1,5 +1,5 @@
 {
-  "name": "num2fraction",
+  "name": "dudley/num2fraction",
   "version": "1.2.2",
   "description": "Convert number to fraction",
   "engines": {
@@ -24,7 +24,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:yisibl/num2fraction.git"
+    "url": "git@github.com:dudleycarr/num2fraction.git"
   },
   "keywords": [
     "fraction",
