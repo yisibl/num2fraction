@@ -6,6 +6,7 @@
     "node": ">=10"
   },
   "main": "index.js",
+  "types": "./dist/index.d.ts",
   "files": [
     "index.js",
     "dist/index.js",
