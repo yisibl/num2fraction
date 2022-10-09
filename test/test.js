@@ -3,7 +3,7 @@ var num2fraction = require('../')
 var π = Math.PI
 
 test('Must be equal', function(t) {
-  t.equal(num2fraction(1/0), '0')
+  t.equal(num2fraction(1/0), Infinity)
   t.equal(num2fraction(0), '0')
   t.equal(num2fraction(.2), '1/5')
   t.equal(num2fraction(1.1), '11/10')
