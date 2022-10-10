@@ -4,6 +4,8 @@ import num2fraction from '../source'
 const π = Math.PI
 
 test('Must be equal', function (t) {
+  t.equal(num2fraction(1 / 0), Number.POSITIVE_INFINITY)
+  t.equal(num2fraction(-11 / 0), Number.NEGATIVE_INFINITY)
   t.equal(num2fraction(0), '0')
   t.equal(num2fraction(0.2), '1/5')
   t.equal(num2fraction(1.1), '11/10')

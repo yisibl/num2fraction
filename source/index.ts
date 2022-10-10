@@ -21,6 +21,13 @@ function findPrecision(n: number) {
 }
 
 export default function num2fraction(value: number | string) {
+  if (
+    value === Number.POSITIVE_INFINITY ||
+    value === Number.NEGATIVE_INFINITY
+  ) {
+    return value
+  }
+
   if (value === 0 || value === '0') return '0'
 
   if (typeof value === 'string') {
