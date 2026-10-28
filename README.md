@@ -57,30 +57,7 @@ Opera [old versions](http://www.opera.com/docs/specs/presto28/css/o-vendor/) sup
 
 ## Changelog
 
-### v1.2.2
-
-* \+ Remove: Debug log message.
-
-### v1.2.1
-
-* \+ Fix: 0 must be converted to a string.
-
-### v1.2.0
-
-* \+ Fix: Accomodate rounding errors. (by @jamestalmage)
-* \+ Fix: The negative sign should be on numerator. (by @jamestalmage)
-
-### v1.1.0
-
-* \+ Use more precise (not fixed) precision factor for the calculation
-
-### v1.0.1
-
-* \- Remove "ci.testling.com"
-
-### V1.0.0
-
-> First release.
+See [CHANGELOG.md](CHANGELOG.md).
 
 ## License
 
