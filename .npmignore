@@ -1,6 +1,6 @@
 .editorconfig
 .gitignore
-.travis.yml
+.github/
 
 node_modules/
 test/

@@ -1,6 +1,6 @@
 # num2fraction
 
-[![Build Status](https://travis-ci.org/yisibl/num2fraction.svg)](https://travis-ci.org/yisibl/num2fraction) 
+[![Tests](https://github.com/yisibl/num2fraction/actions/workflows/test.yml/badge.svg)](https://github.com/yisibl/num2fraction/actions/workflows/test.yml)
 [![NPM Downloads](https://img.shields.io/npm/dm/num2fraction.svg?style=flat)](https://www.npmjs.com/package/num2fraction) 
 [![NPM Version](http://img.shields.io/npm/v/num2fraction.svg?style=flat)](https://www.npmjs.com/package/num2fraction) 
 [![License](https://img.shields.io/npm/l/num2fraction.svg?style=flat)](http://opensource.org/licenses/MIT) 
