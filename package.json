@@ -1,6 +1,6 @@
 {
   "name": "num2fraction",
-  "version": "1.2.2",
+  "version": "1.3.0",
   "description": "Convert number to fraction",
   "main": "index.js",
   "author": {
@@ -11,7 +11,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:yisibl/num2fraction.git"
+    "url": "git+https://github.com/yisibl/num2fraction.git"
   },
   "keywords": [
     "fraction",

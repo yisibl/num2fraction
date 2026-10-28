@@ -7,6 +7,18 @@ Release dates use the UTC publication dates from the [npm registry](https://regi
 
 ## Unreleased
 
+## [1.3.0] - 2026-10-28
+
+### Added
+
+- Automated npm publishing via GitHub Actions with npm trusted publishing (OIDC), staged publishing and provenance.
+- Add `.editorconfig` to `.npmignore` so it is no longer included in the npm package.
+
+### Changed
+
+- `num2fraction(Infinity)` now returns `Infinity` instead of `'0'`. (by @arshadkazmi42)
+- Migrate tests from Travis CI to GitHub Actions.
+
 ## [1.2.2] - 2015-09-14
 
 ### Changed
@@ -48,6 +60,7 @@ Release dates use the UTC publication dates from the [npm registry](https://regi
 
 - First release.
 
+[1.3.0]: https://www.npmjs.com/package/num2fraction/v/1.3.0
 [1.2.2]: https://www.npmjs.com/package/num2fraction/v/1.2.2
 [1.2.1]: https://www.npmjs.com/package/num2fraction/v/1.2.1
 [1.2.0]: https://www.npmjs.com/package/num2fraction/v/1.2.0

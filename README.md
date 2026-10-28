@@ -16,8 +16,8 @@ npm install num2fraction
 ## Usage
 
 ```js
-var π   = Math.PI
-var n2f = require('num2fraction')
+const π   = Math.PI
+const n2f = require('num2fraction')
   console.log(n2f(0))                // => 0
   console.log(n2f(.2))               // => 1/5
   console.log(n2f(1.1))              // => 11/10
@@ -37,6 +37,7 @@ var n2f = require('num2fraction')
   console.log(n2f(512 / 999)         // => 512/999
   console.log(n2f((2 * π / 3) / π)   // => 2/3
   console.log(n2f((8 * 5) / (4 / 2)) // => 20/1
+  console.log(n2f(1 / 0))            // => Infinity
 ```
 
 ## Example
